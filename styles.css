@@ -1,0 +1,52 @@
+body{
+    font-family: "indie flower", sans-serif;
+}
+#navbar-header {
+    background: grey;
+    border: 2px solid black;
+    margin-bottom: 0;
+}
+
+.navbar-brand a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+.navbar-header .icon-bar{
+    border:2px solid black;
+}
+
+
+#nav-list li{
+    border-bottom:2px solid;
+}
+
+#collapsible-nav #nav-list a{
+    color: black;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#nav-list {
+    margin-top: 0;
+}
+#nav-list li.active{
+    background-color: lightgray;
+}
+/******* Header ******/
+
+
+#main-content {
+    background-color: lightgrey;
+    margin: 10px;
+}
+
+@media (max-width: 767px) {
+    #main-content{
+        margin: 0 35px;
+    }
+    #main-content #chicken {
+        margin: 0 10px;
+    }
+}
